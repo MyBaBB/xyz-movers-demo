@@ -24,14 +24,15 @@ const MainIntro  = () => {
      </article>
 
     <div className='RotateHandsWrapper     
-           bg-white
-       -top-[2.5rem] xs:-top-[2.5rem] sm:-top-[1.95rem]  md:-top-[1.35rem] lg:-top-[.8rem]
+           bg-transparent
+       -top-[2.5rem] xxs:top-[-2rem]  xs:-top-[2.5rem] sm:-top-[1.95rem]  md:-top-[1.35rem] lg:-top-[.8rem]
        -left-[2rem] xxs:-left-2rem sm:-left-[1.75rem] md:-left-[1.35rem] lg:-left-[.7rem]
         
        >
           scale-[35%] sm:scale-[50%] md:scale-[60%] lg:scale-[70%] '>
                <div className=' relative  w-fit animate-spin'
                 style={{ animationDuration: '9s' }}>
+                  
                <img id='RotateHelpingHands' src={EmptyRotator1} alt="Spinner Badge" />
                </div>
          
