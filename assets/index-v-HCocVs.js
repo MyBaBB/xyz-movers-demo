@@ -73,7 +73,7 @@ Error generating stack: `+i.message+`
            p-1 shadow-inner  bg-transparent rounded-full  hidden md:block\r
                md:-top-[1.65rem] lg:-top-[1.5rem]\r
            -right-[2rem] xxs:-right-2rem sm:-right-[1.75rem] md:-right-[1.55rem] lg:-right-[.7rem]  >\r
-          scale-[35%] sm:scale-[50%] md:scale-[60%] lg:scale-[70%] `,children:d.jsx("div",{className:" relative w-[160px]",children:d.jsx("img",{src:Fd,alt:"Mover Icon",className:"animate-pulse scale-105 duration-500"})})})]})}),"     ",d.jsx($d,{}),d.jsxs("div",{className:`Accordian2Wrapper relative  block  px-[10px]   sm:px-[.5rem]\r
+          scale-[35%] sm:scale-[50%] md:scale-[60%] lg:scale-[70%] `,children:d.jsx("div",{className:" relative w-[160px]",children:d.jsx("img",{src:Fd,alt:"Mover Icon"})})})]})}),"     ",d.jsx($d,{}),d.jsxs("div",{className:`Accordian2Wrapper relative  block  px-[10px]   sm:px-[.5rem]\r
         mt-[.5rem]   md:mt-[1rem] text-green-50`,style:{textShadow:"2px 2px 4px rgba(0, 0, 0, 1)"},children:[d.jsx("h2",{id:"HelpingHandMovers_H1",className:"WhiteSpaceNowrap  text-amber-100 hidden md:block pb-7 mb-0  sm:mb-4 mt-[-1rem]",children:"  Movers"}),d.jsx("div",{className:"flex justify-center content-center mb-3",children:d.jsx("div",{className:"Movers md:hidden relative flex w-fit  mt-1.5 md:mt-[1.2rem] block  ]",children:d.jsx("img",{src:Dd,alt:"Two Guys Moving",width:250,height:250,className:" rounded-[18px] z-1"})})}),d.jsxs("div",{className:"AboutUsParagraphWrapper relative flex justify-center content-center mx-auto   hidden md:block",children:[d.jsx("p",{id:"AboutUsh2",className:`AboutUsh2 text-[1.45rem]\r
            lg:text-3xl      \r
            `}),d.jsx("p",{className:`AboutUsParagraphMdBlock text-lg lg:text-2xl  p-4 \r
