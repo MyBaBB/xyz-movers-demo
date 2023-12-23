@@ -2,7 +2,7 @@
   "name": "xyz-movers",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mybabb.github.io/xyz-movers",
+  "homepage": "https://mybabb.github.io/xyz-movers-demo",
   "type": "module",
   "scripts": {
     "predeploy":  "npm run build",
