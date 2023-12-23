@@ -70,11 +70,11 @@ const MainIntro  = () => {
             {/* Mover Icon */}
        <div className='MovericonWrapper fixed flex w-fit
            p-1 shadow-inner  bg-transparent rounded-full  hidden md:block
-               md:-top-[1.65rem] lg:-top-[1.5rem]
+               md:-top-[1.65rem] lg:top-[-1rem]
            -right-[2rem] xxs:-right-2rem sm:-right-[1.75rem] md:-right-[1.55rem] lg:-right-[.7rem]  >
           scale-[35%] sm:scale-[50%] md:scale-[60%] lg:scale-[70%] '>
          <div className=' relative w-[160px]'>
-              <img src={Movericon2} alt="Mover Icon" className='animate-pulse scale-105 duration-500' />
+              <img src={Movericon2} alt="Mover Icon"  />
         </div>
       </div>{/* Mover Icon */}
 
