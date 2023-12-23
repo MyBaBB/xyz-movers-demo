@@ -1,0 +1,309 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  min-width: 200px;
+  color-scheme: light dark;
+  
+   
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  position: relative;
+
+  margin: 0;
+  display: flex;
+  min-width: 200px;
+  min-height: 100vh;
+  padding:2px;
+  background-color:#052e16;
+}
+.bodyWrapper {
+  border:2px solid #61472a;
+  position:relative;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+     
+.HeaderWrapper {
+    position:fixed;
+    top: 0;
+    left: 0;    
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 0rem;
+    background-image: linear-gradient(to bottom, #91785d, #61472a);
+    box-shadow: 2px 2px 12px black;
+    border-bottom:2px solid #614829;
+    z-index: 50;
+
+  }
+    .triangle {
+  position: relative;
+  display: flex;
+  left: 7.9px;
+  background-color: #41301b;
+  top: 1.5px;
+  width: 16px;
+  height: 9px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top:.7px double #91785d;
+
+  z-index: 2;
+} 
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  bottom: -5.9px;
+  left: calc(50% - 5.5px);
+  width: 11px;
+  height: 11px;
+  background-color:#41301b;
+  transform: rotate(45deg);
+  z-index: 1;
+  box-shadow: 1px 1px 1px 1px #41301b;
+  border-right: 1.5px solid #91785d;
+  border-bottom: 1.5px solid #91785d;
+}
+ 
+.HelpingHandHeading1{
+  font-family: DM_Serif_Display;
+  
+  width: fit-content;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 12px;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  z-index:50;
+  background-color: #41301b;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+  ;
+}
+.HelpingHandHeading2{
+  font-family: DM_Serif_Display;
+  width: fit-content;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  padding: 12px;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  z-index:50;
+  background-color: #41301b;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+  ;
+  }
+  
+
+.MovericonWrapper{
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+  border:2px solid #66bb6a;
+}
+
+.RotateHandsWrapper{
+   
+  position: fixed;
+  display: flex;
+  width: fit-content;
+  border-radius: 50%;
+  border:2px solid #66bb6a; 
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+  padding:.25rem;
+}
+
+ #RotateHelpingHands {
+     position:relative;
+
+ }
+ 
+ #RotateHelpingHands2 {
+    position: absolute;
+    left: 42px;
+    top:45px;
+ }
+
+ #HelpingHandMovers_H1 {
+  font-family: DM_Serif_Display;
+  font-size: 2rem;
+  text-decoration: underline;
+  
+}
+  /*  header above */
+  .TopIntro {
+    font-family: Libre_Baskerville;
+  }
+
+  .Movers {
+    
+    border: 2px solid #61472a;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    z-index: 0;
+  }
+  .AboutUsParagraphAccordion2 {
+    font-family: Libre_Baskerville;
+    text-align: center;
+    padding: .5rem;
+    border: 2px solid #725432;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    z-index: 0;
+  }
+  .OurPhotosAccordion1 {
+    font-family: Libre_Baskerville;
+    text-align: center;
+    padding: .5rem;
+    border: 2px solid #725432;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    z-index: 0;
+  }
+    .Accordion03ReviewsWrapper {
+    font-family: Libre_Baskerville;
+    text-align: center;
+    padding-bottom: .2rem;
+    padding-top: .2rem;
+    border: 2px solid #725432;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    z-index: 0;
+  }
+  .TopArticleWrapper{
+    font-family: Libre_Baskerville;
+    text-align: center;
+    padding: .5rem;
+    max-width: 795px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    z-index: 0;
+    
+  }
+  .AboutUsParagraphMdBlock {
+    font-family: Libre_Baskerville;
+    text-align: center;
+    padding-inline: 3rem;
+    margin-top:-2rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    z-index: 0;
+  }
+     .WelcomeWrapper {
+      font-family: Libre_Baskerville;
+      text-align: center;
+      padding: .5rem;
+      max-width: 815px;
+      border-radius: 20px;
+      z-index: 0;
+     }
+
+       /* reviews below */
+       .ReviewsPersonHorizontalRule{
+        border: 2px solid #725432;
+         width: 70%;
+         margin: auto;
+         margin-top: .5rem;
+         margin-bottom: .5rem; 
+        }
+        .ReviewsPersonStarRating {
+          border:2px solid #725432 ;
+          border-radius: 4px;
+          font-size: 1.5rem;
+          margin: auto;
+          margin-top: .5rem;
+          margin-bottom: .5rem;
+        }
+          .ReviewsPersonDate {
+            font-size: .755rem;
+            margin: auto;
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+          }
+           .ReviewsPersonName {
+            padding-top: 3rem;
+            font-size: 1.75rem;
+            margin: auto;
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+            text-decoration: underline;
+          }
+
+
+ @media  (orientation: landscape)and (max-width: 685px) {
+   .OurReelsBoxTruckWrapper {
+     top: 1rem;
+     padding-top: 1rem;
+     margin-bottom: 3rem;
+     
+   } 
+
+
+   
+   }
+   .OurReelsBoxTruck, .OldPhoneImage,  .OurReelsBoxMover {          
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 1);
+   }
+  
+
+ 
+
+ @font-face {
+  font-family:'Creepster';
+  src: url(../GoogleFonts/Creepster/Creepster-Regular.ttf)
+ }
+ @font-face {
+  font-family:'DM_Serif_Display';
+  src: url(../GoogleFonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf)
+ }
+ @font-face {
+  font-family:'';
+  src: url(../GoogleFonts/Itim/Itim-Regular.ttf)
+ }
+ @font-face {
+  font-family:'Kranky';
+  src: url(../GoogleFonts/Kranky/Kranky-Regular.ttf)
+ }
+ @font-face {
+  font-family:'Libre_Baskerville';
+  src: url(../GoogleFonts/Libre_Baskerville/LibreBaskerville-Regular.ttf)
+ }
+ @font-face {
+  font-family:'PT_Serif';
+  src: url(../GoogleFonts/PT_Serif/PTSerif-Regular.ttf)
+ }
+ @font-face {
+  font-family:'Rye';
+  src: url(../GoogleFonts/Rye/Rye-Regular.ttf)
+ }
+
