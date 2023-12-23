@@ -4,7 +4,7 @@ import InstagramIcon from "../assets/Img/InstagramIcon.webp"
 import FacebookIcon from "../assets/Img/FacebookIcon.webp"
 import OldPhoneImg from "../assets/Img/OldPhone.webp"
 
-const ConactBar = () => {
+const ContactBar = () => {
   return (
     <div>
       <>
@@ -60,4 +60,4 @@ const ConactBar = () => {
   )
 }
 
-export default ConactBar
+export default ContactBar
