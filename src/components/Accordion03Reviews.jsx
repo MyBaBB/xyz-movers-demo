@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
+import { GrStarOutline } from "react-icons/gr";
 
 const Accordion03 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +26,8 @@ const Accordion03 = () => {
              <div className='absolute left-[3px] top-[4px] sm:top-[9px] w-8  h-8  bg-gradient-to-b 
              from-amber-200 to-varDarkBrown shadow-sm  shadow-black  rounded-full pt-[7px] text-4xl ' 
              style={{ textShadow: '0px -1px 2px black' }}> <span className='triangle'></span></div>
-               Reviews
+               <div className='underline pb-2'>Reviews</div>
+               
             </button>
           </div>
           {isOpen &&
@@ -36,22 +38,40 @@ const Accordion03 = () => {
 
   
 <span className='ReviewsPersonName'>Elmer James</span> <br/> 
-<span className='ReviewsPersonDate'>Nov, 1 1977</span> <br/> 
-<span className="ReviewsPersonStarRating">⭐⭐⭐⭐⭐</span>
+<span className='ReviewsPersonDate'>Nov, 1 2022</span> <br/> 
+ <span className="ReviewsPersonStarRating">
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+  </span>
 <p className='ReviewsPersonParagraph'>They are committed to ensuring customer satisfaction and take pride in providing their customers with the best possible experience.</p> 
 <hr className="ReviewsPersonHorizontalRule
 "/>
   <br />
 <span className='ReviewsPersonName'>Jimmy Franks</span> <br/> 
-<span className='ReviewsPersonDate'>June, 21 1984</span> <br/> 
-<span className="ReviewsPersonStarRating">⭐⭐⭐⭐⭐</span>
+<span className='ReviewsPersonDate'>June, 21 2022</span> <br/> 
+<span className="ReviewsPersonStarRating">
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+  </span>
 <p className='ReviewsPersonParagraph'>They listen to their customers&apos; feedback and take their suggestions into consideration to improve their services.</p> 
 <hr className="ReviewsPersonHorizontalRule
 "/>
 <br />
 <span className='ReviewsPersonName'>Freddy Winks</span> <br/> 
-<span className='ReviewsPersonDate'>Ausust,19 1991</span> <br/> 
-<span className="ReviewsPersonStarRating">⭐⭐⭐⭐⭐</span>
+<span className='ReviewsPersonDate'>Ausust,19 2022</span> <br/> 
+<span className="ReviewsPersonStarRating ">
+<span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+   <span className='stars inline-block   text-varGold'><GrStarOutline size={22} /></span>
+  </span>
 <p className='ReviewsPersonParagraph'>XYZ Company believes that happy customers are the key to their success, and they strive to make sure that every customer is satisfied with their work.</p> 
 <hr className="ReviewsPersonHorizontalRule
 "/>

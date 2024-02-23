@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-
+import { GrStarOutline } from "react-icons/gr";
 import EmptyRotator1 from "../assets/Img/EmptyRotator1.webp"
 import Movers from "../assets/Img/Movers.webp"
 import Movericon2 from "../assets/Img/Movericon2.webp"
@@ -145,7 +145,9 @@ const MainIntro  = () => {
                 <p className='text-2xl  md:px-[1rem] p-2'>
           We get you to your destination Safe and Secure
            <br />
-           <span className='text-base'><Accordion03Reviews /> ⭐⭐⭐⭐⭐</span>
+           <span className='text-base'><Accordion03Reviews /> 
+           
+           </span>
                 </p>
                 
                 <Accordion01Images/>
